@@ -5,23 +5,23 @@ class Baguettedb < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.1.0/bdb_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "4297f901f42c2ca741524cd1a029021bde8984eb28787763d235959209a6d4ff"
+      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.2.0/bdb_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "078fa5649ebb4cd5f55b8f62fd682eeaa89fbf8aaacab4dc81629bd4ba8d8caf"
     end
     on_intel do
-      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.1.0/bdb_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "142ea91cdd48f09bc78cd18b464d272f62897eaf9a3a1cbf48e91a8a3e61881b"
+      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.2.0/bdb_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "69b90421ce99e9262c1a877047efcb6eda45a99f7110f452aedf34b5bbde7b08"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.1.0/bdb_v0.1.0_linux_arm64.tar.gz"
-      sha256 "93f8d0e26326979d0333cc171b9a039cff9decf63efe7f1f7951be1c9f173bc0"
+      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.2.0/bdb_v0.2.0_linux_arm64.tar.gz"
+      sha256 "beafff89e9d1cd51d040705e355529a5c24731dac4001430608bc8ddaa3d0f15"
     end
     on_intel do
-      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.1.0/bdb_v0.1.0_linux_amd64.tar.gz"
-      sha256 "78cb085741f1ca5301e59f328dc8a0c1887fb8c6366c8b1b48781acb7c808aa9"
+      url "https://github.com/alexandremgo/baguettedb/releases/download/v0.2.0/bdb_v0.2.0_linux_amd64.tar.gz"
+      sha256 "e4e7291f4045aa2ba9728b6cf974b9e69d80bd5bc6582e133c1781dba2af93ab"
     end
   end
 
